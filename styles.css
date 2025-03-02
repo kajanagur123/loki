@@ -5,7 +5,7 @@
     
     }
     .logo{
-    background-color: black;
+    background-color: rgb(78, 2, 64);
     
     }
     .list a{
@@ -32,12 +32,12 @@
     }
     .lists a{
     text-decoration: none;
-    color: white;
+    color: rgb(202, 185, 185);
     
     }
     .list a{
     text-decoration: none;
-    color: white;
+    color: rgb(218, 201, 201);
     
     }
     i{
@@ -92,11 +92,11 @@
     
     }
     span{
-    color: rgb(212, 9, 9);
+    color: rgb(224, 13, 193) !important;
     }
     .lists li:hover{
-    color: red;
-    border-bottom: 5px solid red;
+    color: rgb(37, 10, 143) !important;
+    border-bottom: 5px solid rgb(209, 11, 150) !important;
     cursor: pointer;
     }
     @media screen and (min-width:600px) {
@@ -138,8 +138,8 @@
     
     body{
         width: 100%;
-        background-color: #d3b9b9;
-        color:white;
+        background-color: #e4d8dd;
+        color:rgb(126, 7, 142) !important;
 
     }
     .education{
@@ -151,19 +151,14 @@
         height: fit-content !important;
     }
     .b:hover{
-        background-color: #333;
+        background-color: #a90404 !important;
     }
     .img img{
 
         width: 100px !important;
         height: fit-content!important;
     }
-img{
-    width:250px !important;
-    height: 300px !important;
-    border:2px solid white !important;
-}
-   
+
     .services-1{
         display: block;
 
@@ -207,9 +202,7 @@ img{
     list-style: none;
 
 }
-span{
-    color: rgb(212, 9, 9);
-}
+
 .lists li:hover{
     color: red;
     border-bottom: 5px solid red;
@@ -249,15 +242,33 @@ span{
 .homes{
     display: flex;
 }
+.services-1:hover{
+    background-color: transparent !important;
+}
+.services-2:hover{
+    background-color: transparent !important;
+}
+.services-3:hover{
+    background-color: transparent !important;
+}
+.services-4:hover{
+    background-color: transparent !important;
+}
 
+.services-5:hover{
+    background-color: transparent !important;
+}
 
 .img img{
-    width: 450px;
-    margin-top: 20px;
-    height:350px;
+
+        width:250px !important;
+        height: 300px !important;
+        border:2px solid white !important;
+    
+      
 
     
-    border: 2px solid red;
+border: 2px solid white;
 }
 
 
@@ -342,7 +353,7 @@ hr:hover{
 }
 .services{
     width: 100%;
-    color: #ddd;
+    color: #ece0e9;
 }
 
 .imgs img{
@@ -371,6 +382,7 @@ transition-duration: 1s;
 
 }
 
+
 .services{
     text-align: center;
     
@@ -397,7 +409,7 @@ transition-duration: 1s;
     text-align: center;
     width: 200px;
     height: 200px;
-    color: black;
+    color: rgb(0, 0, 0);
 
 }
 
@@ -422,7 +434,7 @@ transition-duration: 1s;
     align-items: center;
     border-radius: 20px;
     
-    color: white;
+    color: rgb(218, 18, 18);
 
 
  
@@ -486,7 +498,7 @@ transition-duration: 1s;
     .services-4:hover{
     
         
-            background-color: rgb(150, 13, 13);
+            background-color: rgb(230, 223, 223) !important;
     }
     .services-4 p{
         font-size: 10px;
@@ -527,11 +539,22 @@ transition-duration: 1s;
         
 
     }
-    .services-1:hover{
+    .services-1,.services-2,.services-3,.services-4,.services-5,.services-6{
     
         
-            background-color: rgb(150, 13, 13);
-            transform: scale(1);
+            background-color: rgb(190, 13, 128) !important;
+            width: 100%;
+            
+            
+    }
+    .education{
+        font-size: 20px !important;
+        color: black;
+        border-radius: 30px !important;
+    }
+    
+    .services-6:hover{
+        background-color: transparent !important;
     }
     .services-5 i{
         opacity: 1 !important;
@@ -544,6 +567,7 @@ transition-duration: 1s;
         color: black;
 
     }
+  
     .services-5 p{
         font-size:10px;
 
@@ -586,10 +610,7 @@ transition-duration: 1s;
     color: black;
 
 }
-.services-6 p{
-    font-size:10px;
-    
-}
+
 .services-6{
     display: flex;
 
@@ -655,15 +676,24 @@ transition-duration: 1s;
 
 }
 .educations:hover{
-    background-color: red;
+    background-color: rgb(158, 79, 142);
 }
 .educations p{
-    font-size: 15px;
-    margin: 20px;
+    font-size: 25px;
+    margin: 20px; 
+
+    color:  black !important;
 }
 .b:hover{
     border-radius: 20px;
 }
+.about-3{
+    color: #333 !important;
+}
+.services-6{
+    font-size: 10px !important;
+}
+
 .education-1{
     margin: 10px;
     font-size: 20px;
@@ -688,7 +718,8 @@ transition-duration: 1s;
 
 }
 .education-1:hover{
-    background-color: red;
+    background-color: rgb(158, 79, 142);
+ 
 }
 .education-1 p{
     font-size: 15px;
@@ -699,12 +730,13 @@ transition-duration: 1s;
 }
 .education-1 p{
     margin: 10px;
-    font-size: 15px;
+    font-size: 25px;
+    color: black;
 }
 .education-2 i{
     font-size: 50px;
     text-align: center;
-    color:black;
+    color:black ;
     opacity: 1 !important;
 }
 .education-2 h2{
@@ -719,11 +751,28 @@ transition-duration: 1s;
 
 
 }
+.services-1 p:hover{
+    font-size: 15px !important;
+}
+.progress-bar{
+    font-size: 30px;
+    background-color: purple;
+    color:black;
+
+}
+#contact{
+    color: black;
+}
+.progress{
+    height: 30px;
+    border-radius: 20px;
+}
 .education-2:hover{
-    background-color: red;
+    background-color: rgb(158, 79, 142);
 }
 .education-2 p{
-    font-size: 20px;
+    font-size: 25px !important;
+color: black;
     margin: 20px;
 }
 .b:hover{
